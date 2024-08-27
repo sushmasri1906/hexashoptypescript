@@ -1,5 +1,5 @@
 import { useRecoilValue, useResetRecoilState } from "recoil";
-import { FaSearch, FaHeart, FaShoppingCart, FaUser } from "react-icons/fa";
+import { FaHeart, FaShoppingCart, FaUser } from "react-icons/fa";
 import logo from "../assets/images/logo.png";
 import { Link } from "react-router-dom";
 import {
