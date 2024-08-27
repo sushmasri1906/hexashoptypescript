@@ -3,7 +3,7 @@ import Slider from 'react-slick'
 import banner1 from "../../assets/images/banner1.png";
 import banner2 from "../../assets/images/banner2.png";
 import banner3 from "../../assets/images/banner3.png";
-import '@splidejs/splide/dist/css/splide.min.css'; // Import Splide styles
+// import '@splidejs/splide/dist/css/splide.min.css'; // Import Splide styles
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 const slides = [

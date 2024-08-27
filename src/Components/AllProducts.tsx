@@ -7,7 +7,7 @@ const AllProducts = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-extrabold mb-6 text-center text-orange-500">All Products</h1>
+      {/* <h1 className="text-3xl font-extrabold mb-6 text-center text-orange-500">All Products</h1> */}
       <ProductList products={allProducts} title={"All Products"} />
     </div>
   );
