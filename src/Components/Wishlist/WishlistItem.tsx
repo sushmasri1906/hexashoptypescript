@@ -21,14 +21,12 @@ const WishlistItem: FC<propType> = ({ item, onRemove, onAddToCart }) => {
 				<div className="flex space-x-2">
 					<button
 						className="bg-blue-500 text-white py-1 px-4 rounded hover:bg-blue-600 transition-colors duration-300"
-						onClick={() => onAddToCart(item)} // Call function with item argument
-					>
+						onClick={() => onAddToCart(item)}>
 						Add to Cart
 					</button>
 					<button
 						className="bg-red-500 text-white py-1 px-4 rounded hover:bg-red-600 transition-colors duration-300"
-						onClick={() => onRemove(item.id)} // Call function with item id argument
-					>
+						onClick={() => onRemove(item.id)}>
 						Remove
 					</button>
 				</div>
